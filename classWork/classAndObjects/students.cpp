@@ -50,7 +50,7 @@ void student::display()
     cout << "------------------------------------- \n";
 }
 
-void main()
+int  main()
 {
     // created an object
     student obj1;
@@ -59,4 +59,7 @@ void main()
     obj1.input();
     obj1.calculatePercentage();
     obj1.display();
+
+    
+    return 0;
 }
