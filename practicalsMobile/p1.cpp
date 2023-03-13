@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+
+
 using namespace std;
 
 class student
@@ -34,7 +36,7 @@ void student::calculatePercentage()
 {
     total = marks1 + marks2 + marks3;
 
-    percentage = (total / 300) * 100;
+    percentage =  (total * 100)/300 ;
 };
 
 void student::display()
@@ -49,6 +51,7 @@ void student::display()
 
 int main()
 {
+  
     // created an object
     student obj1;
 
@@ -56,6 +59,8 @@ int main()
     obj1.input();
     obj1.calculatePercentage();
     obj1.display();
+
+   
 
     return 0;
 }
