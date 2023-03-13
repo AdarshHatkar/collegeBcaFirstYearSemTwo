@@ -22,7 +22,7 @@ public:
     {
         total = marks1 + marks2 + marks3;
 
-        percentage = (total / 300) * 100;
+         percentage =  (total * 100)/300 ;
     }
 };
 
