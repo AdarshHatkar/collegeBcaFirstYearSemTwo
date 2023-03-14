@@ -1,8 +1,6 @@
-/* Write a program in C++ to demonstrate Class and Object */
+/*Practical No:1  Write a program in C++ to demonstrate Class and Object (students ) */
 
 #include <iostream>
-
-
 
 using namespace std;
 
@@ -36,7 +34,7 @@ void student::calculatePercentage()
 {
     total = marks1 + marks2 + marks3;
 
-    percentage =  (total * 100)/300 ;
+    percentage = (total * 100) / 300;
 };
 
 void student::display()
@@ -51,7 +49,7 @@ void student::display()
 
 int main()
 {
-  
+
     // created an object
     student obj1;
 
@@ -59,8 +57,6 @@ int main()
     obj1.input();
     obj1.calculatePercentage();
     obj1.display();
-
-   
 
     return 0;
 }

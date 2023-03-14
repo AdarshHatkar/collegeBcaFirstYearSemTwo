@@ -1,4 +1,4 @@
-/* in this program we  learned function over loading with add function*/
+/*Practical No:8 Write a program in C++ for function overloading */
 
 #include <iostream>
 using namespace std;
@@ -22,7 +22,7 @@ void add(float a, float b)
 
 int main()
 {
-    float f1 = 1.1, f2 = 2.2, f3 = 3.3;
+    float f1 = 1.1, f2 = 2.2;
     add(10, 20);
     add(10, 30, 40);
     add(5.5, 6.6);
