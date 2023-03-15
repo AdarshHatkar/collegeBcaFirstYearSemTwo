@@ -30,15 +30,15 @@ public:
 
     void operator--()
     {
-        a = a--;
-        b = b--;
-        c = c--;
+         a--;
+         b--;
+         c--;
     }
     void operator++()
     {
-        a = a++;
-        b = b++;
-        c = c++;
+        a++;
+        b++;
+        c++;
     }
 };
 
