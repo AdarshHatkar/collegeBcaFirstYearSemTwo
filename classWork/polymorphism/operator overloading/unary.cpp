@@ -10,7 +10,7 @@ public:
 
     void input()
     {
-        cout << "enter a,b,c";
+        cout << "enter a,b,c \n";
         cin >> a >> b >> c;
     }
     void display()
@@ -36,15 +36,15 @@ public:
     }
     void operator--()
     {
-        a = --a;
-        b = --b;
-        c = --c;
+        --a;
+        --b;
+        --c;
     }
     void operator++()
     {
-        a = ++a;
-        b = ++b;
-        c = ++c;
+         ++a;
+         ++b;
+         ++c;
     }
 };
 
