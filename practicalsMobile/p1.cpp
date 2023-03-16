@@ -19,7 +19,7 @@ public:
 
 void student::input()
 {
-    cout << "Enter student Name: ";
+    cout << "\n Enter student Name: ";
     cin >> name;
     cout << "\n Enter student Roll Number: ";
     cin >> roll_no;
@@ -39,7 +39,7 @@ void student::calculatePercentage()
 
 void student::display()
 {
-    cout << "\n--------Student Information-----------";
+    cout << "\n-------- Student Information -----------";
     cout << "\n Name: " << name << "";
     cout << "\n Roll Number: " << roll_no << "";
     cout << "\n Total Marks: " << total << "";

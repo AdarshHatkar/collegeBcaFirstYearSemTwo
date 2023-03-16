@@ -13,7 +13,7 @@ void add(int a, int b, int c)
 }
 void add(double a, double b)
 {
-    cout << "\n sum of two double: " << a + b ;
+    cout << "\n sum of two double: " << a + b;
 }
 void add(float a, float b)
 {
@@ -26,10 +26,8 @@ int main()
     add(10, 20);
     add(10, 30, 40);
     add(5.5, 6.6);
-
     /* Note: we cant pass float value directly because it will considered as double value */
     add(f1, f2);
-    
 
     return 0;
 }

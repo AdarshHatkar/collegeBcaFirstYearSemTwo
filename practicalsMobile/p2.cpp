@@ -3,28 +3,28 @@
 #include <iostream>
 using namespace std;
 
-class Adarsh
+class MyClass
 {
 public:
-    Adarsh()
+    MyClass()
     {
 
         cout << "Default constructor called \n";
     }
 
-    Adarsh(int a)
+    MyClass(int a)
     {
 
         cout << "Parameterize constructor called \n";
     }
 
-    Adarsh(Adarsh &obj)
+    MyClass(MyClass &obj)
     {
 
         cout << "Copy constructor called\n";
     }
 
-    ~Adarsh()
+    ~MyClass()
     {
 
         cout << "Destructor called \n";
@@ -33,8 +33,8 @@ public:
 
 int main()
 {
-    Adarsh obj_1;
-    Adarsh obj_2(52);
-    Adarsh obj_3(obj_1);
+    MyClass obj_1;
+    MyClass obj_2(52);
+    MyClass obj_3(obj_1);
     return 0;
 }

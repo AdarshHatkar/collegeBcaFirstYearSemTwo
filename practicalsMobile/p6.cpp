@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-class Demo
+class MyClass
 {
 public:
     int a, b, c;
@@ -30,9 +30,9 @@ public:
 
     void operator--()
     {
-         a--;
-         b--;
-         c--;
+        a--;
+        b--;
+        c--;
     }
     void operator++()
     {
@@ -45,7 +45,7 @@ public:
 int main()
 {
 
-    Demo obj;
+    MyClass obj;
     obj.input();
     obj.display();
 
