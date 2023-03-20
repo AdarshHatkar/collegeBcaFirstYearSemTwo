@@ -8,7 +8,7 @@ class MyClass
 public:
     int num1, num2, num3;
 
-    MyClass(int n)
+    MyClass(int n) 
     {
         num1 = n;
         num2 = 0;

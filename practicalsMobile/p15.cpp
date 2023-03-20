@@ -7,25 +7,25 @@ class MyClass
 public:
     int num1, num2;
 
-    MyClass()
+    MyClass() // Default constructor
     {
         num1 = 0;
         num2 = 0;
     }
 
-    MyClass(int n)
+    MyClass(int n) // Parametrize constructor
     {
         num1 = n;
         num2 = 0;
     }
 
-    MyClass(int n1, int n2)
+    MyClass(int n1, int n2) // Parametrize constructor
     {
         num1 = n1;
         num2 = n2;
     }
 
-    MyClass(MyClass &obj)
+    MyClass(MyClass &obj) // Copy constructor
     {
         num1 = obj.num1;
         num2 = obj.num2;
