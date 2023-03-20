@@ -1,4 +1,4 @@
-/*Practical No:6 Write a program in C++ for Binary operator overloading. */
+/*Practical No:7 Write a program in C++ for Binary operator overloading. */
 
 #include <iostream>
 using namespace std;
